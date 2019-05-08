@@ -10,11 +10,13 @@
 《DocFace+: ID Document to Selfie Matching》
 
 Prepare：
+
 train datset： CASIA weface, MSRA, NJN_train(private, number 600000)
 test dataset: LFW, NJN_test(private, 8000)
 
 1、First stage
-   Use the pretrained model trained on CASIA weface dataset, then fix the parameters of feature and update the parameters of classifier while training on MSRA dataset. Finally, we get the pretrained model by updating all parameters.
+
+   Based on pretrained model trained on CASIA weface dataset, then fix the parameters of feature and update the parameters of classifier while training on MSRA dataset. Finally, we get the pretrained model by updating all parameters.
   
     Phase one, update parameters of classifiers.
         batch size = 384,
@@ -29,7 +31,8 @@ test dataset: LFW, NJN_test(private, 8000)
         lr:convolutional layers:0.01, classifier layers:0.1，lr decreased by factor 10 [51000,110000,150000] 
         
 2、Second stage
-
+    
+   Use the model
 	 
 
 
