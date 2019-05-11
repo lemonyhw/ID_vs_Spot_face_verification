@@ -27,13 +27,11 @@
    
  
   参考链接：
-  
   https://github.com/ChaofWang/Npair_loss_pytorch
   
   https://github.com/seasonSH/DocFace
   
   参考文献：
-       
        《DocFace: Matching ID Document Photos to Selfies∗》
        《DocFace+: ID Document to Selfie* Matching》
        《Improved Deep Metric Learning with Multi-class N-pair Loss Objective》
