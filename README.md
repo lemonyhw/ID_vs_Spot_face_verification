@@ -8,17 +8,17 @@
 
 主要实现方法：
 
-   A-softmax
+      A-softmax
     
-   Random Prototype Softmax
+      Random Prototype Softmax
     
-   N-pairLoss
+      N-pairLoss
     
-   AM-softmax
+      AM-softmax
     
-   Max-margin Pairwise Score(MPS) Loss
+      Max-margin Pairwise Score(MPS) Loss
     
-   Dynamic Weight Imprinting softmax(DIAM-Softmax)
+      Dynamic Weight Imprinting softmax(DIAM-Softmax)
     
    以上方法来源于
    《Large-scale Bisample Learning on ID vs. Spot Face Recognition》、
@@ -33,13 +33,14 @@
   https://github.com/seasonSH/DocFace
   
   参考文献：
-  《DocFace: Matching ID Document Photos to Selfies∗》
-  《DocFace+: ID Document to Selfie* Matching》
-  《Improved Deep Metric Learning with Multi-class N-pair Loss Objective》
-  《Low-Shot Learning with Imprinted Weights》
-  《Large-scale Bisample Learning on ID vs. Spot Face Recognition》 
-  《Additive Margin Softmax for Face Verification》
-  《SphereFace: Deep Hypersphere Embedding for Face Recognition》
+       
+       《DocFace: Matching ID Document Photos to Selfies∗》
+       《DocFace+: ID Document to Selfie* Matching》
+       《Improved Deep Metric Learning with Multi-class N-pair Loss Objective》
+       《Low-Shot Learning with Imprinted Weights》
+       《Large-scale Bisample Learning on ID vs. Spot Face Recognition》 
+       《Additive Margin Softmax for Face Verification》
+       《SphereFace: Deep Hypersphere Embedding for Face Recognition》
   
 
 
